@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FixMyTime | Timesheet Cleanup Made Simple</title>
+  
+  <!-- Google Fonts: Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link href="styles.css" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <i class="fas fa-clock me-2"></i>
+        FixMyTime
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#problem">The Problem</a></li>
+          <li class="nav-item"><a class="nav-link" href="#solution">Our Solution</a></li>
+          <li class="nav-item"><a class="nav-link" href="#benefits">Benefits</a></li>
+          <li class="nav-item"><a class="nav-link btn-nav" href="#contact">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container-fluid px-lg-5">
+      <div class="row align-items-center">
+        <div class="col-lg-4 offset-lg-1 hero-content">
+          <h1>Timesheet cleanup is broken.</h1>
+          <p class="lead">But we're here to fix it.</p>
+          <div class="cta-buttons">
+            <a href="#contact" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="hero-image-container">
+            <div class="hero-placeholder">
+              <i class="fas fa-stopwatch" style="font-size: 4rem; color: var(--primary-color);"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <a href="#problem">
+        <span>Scroll</span>
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Problem Section -->
+  <section class="section bg-light" id="problem">
+    <div class="container">
+      <div class="section-header">
+        <h2>Raw timesheets aren't client-ready</h2>
+      </div>
+      
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="problem-card">
+            <h3>Every week, professionals spend hours manually:</h3>
+            <ul class="feature-list problem-list">
+              <li>
+                <span class="icon-circle"><i class="fas fa-edit"></i></span>
+                <span>Cleaning up raw timesheet data</span>
+              </li>
+              <li>
+                <span class="icon-circle"><i class="fas fa-cogs"></i></span>
+                <span>Applying complex client-specific rules</span>
+              </li>
+              <li>
+                <span class="icon-circle"><i class="fas fa-file-alt"></i></span>
+                <span>Formatting for client presentation</span>
+              </li>
+            </ul>
+            <p class="emphasis">This manual process takes <u>10x longer</u> than it should.</p>
+            <p class="emphasis-secondary">There's a gap between <span style="font-style: italic;">raw time data</span> and <span style="font-style: italic;">agreed bills</span> that nobody has solved.</p>
+          </div>  
+        </div>
+        <div class="col-md-6">
+          <div class="image-placeholder">
+            <i class="fas fa-file-invoice" style="font-size: 3rem;"></i>
+            <span style="margin-left: 1rem;">Messy timesheet data</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solution Section -->
+  <section class="section" id="solution">
+    <div class="container">
+      <div class="section-header">
+        <h2>We bridge the gap automatically</h2>
+      </div>
+      
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-2">
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-magic"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Intelligent data cleanup</h4>
+                <p>Automatically clean and standardize raw timesheet entries.</p>
+              </div>
+            </div>
+            
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Client-specific rules engine</h4>
+                <p>Apply complex billing rules and requirements for each client automatically.</p>
+              </div>
+            </div>
+            
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-palette"></i>
+              </div>
+              <div class="feature-content">
+                <h4>Configurable presentation</h4>
+                <p>Format output to match each client's preferred style and requirements.</p>
+              </div>
+            </div>
+            
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-bolt"></i>
+              </div>
+              <div class="feature-content">
+                <h4>10x faster processing</h4>
+                <p>Complete in minutes what used to take hours of manual work.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <div class="image-placeholder">
+            <i class="fas fa-file-check" style="font-size: 3rem;"></i>
+            <span style="margin-left: 1rem;">Clean, client-ready timesheets</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="section bg-light" id="benefits">
+    <div class="container">
+      <div class="section-header">
+        <h2>Finally, a solution that bridges the gap</h2>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="display-4 mb-3">10x faster</div>
+            <p>Transform hours of manual timesheet cleanup into <strong>minutes of automated processing</strong>.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-puzzle-piece"></i>
+            </div>
+            <div class="display-4 mb-3">Fills the gap</div>
+            <p><strong>Nothing else exists</strong> that bridges raw time data to client-ready bills. We solve this unique problem.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="display-4 mb-3">Client-ready</div>
+            <p>Automatically format timesheets to match <strong>each client's specific requirements</strong> and preferences.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Let's get started</h2>
+        <h6>Fill in your details and we'll be in touch</h6>
+      </div>
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="contact-form-card">
+            <form name="contact" method="POST" netlify action="/thank-you.html" id="contactForm">
+              <input type="hidden" name="form-name" value="contact" />
+              <p class="hidden">
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+              </p>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                <label for="name">Full Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                <label for="email">Email Address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="company" name="company" placeholder="Your Company">
+                <label for="company">Company</label>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg w-100">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 d-flex align-items-center justify-content-end">
+          <p class="mb-0">&copy; 2025 FixMyTime. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
