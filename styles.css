@@ -293,7 +293,7 @@ p {
 .problem-list li {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   font-size: 1.1rem;
 }
 
