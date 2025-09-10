@@ -411,6 +411,31 @@ p {
   font-size: 1.1rem;
 }
 
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.benefit-logo {
+  width: 100%;
+  height: 50px;
+  object-fit: contain;
+  opacity: 0.85;
+  transition: var(--transition);
+}
+
+.benefit-logo:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.benefit-logo-large {
+  height: 70px;
+}
+
+
 /* Contact Section */
 .contact-form-card {
   background-color: #ffffff;
