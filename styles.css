@@ -68,7 +68,8 @@ p {
 .emphasis {
   font-weight: 600;
   color: var(--primary-color);
-  font-size: 1.2rem;
+  font-size: 1.35rem;
+  line-height: 1.4;
 }
 
 .emphasis-secondary {
@@ -270,7 +271,7 @@ p {
 
 /* Problem Section */
 .problem-card {
-  padding: 2.5rem;
+  padding: 4rem 3rem;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: var(--shadow-md);
@@ -278,14 +279,15 @@ p {
 }
 
 .problem-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
   color: var(--dark-gray);
+  line-height: 1.4;
 }
 
 .problem-list {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   padding-left: 0;
   list-style: none;
 }
@@ -293,21 +295,22 @@ p {
 .problem-list li {
   display: flex;
   align-items: center;
-  margin-bottom: 1.25rem;
-  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 .icon-circle {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   background-color: var(--primary-light);
   color: var(--primary-color);
   border-radius: 50%;
-  margin-right: 1rem;
+  margin-right: 1.25rem;
   flex-shrink: 0;
+  font-size: 1.1rem;
 }
 
 .image-placeholder {
