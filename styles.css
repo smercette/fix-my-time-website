@@ -101,6 +101,10 @@ p {
   color: var(--primary-color) !important;
 }
 
+.navbar-logo {
+  filter: brightness(0) saturate(100%) invert(23%) sepia(97%) saturate(2186%) hue-rotate(202deg) brightness(95%) contrast(101%);
+}
+
 .nav-link {
   font-weight: 500;
   margin: 0 0.75rem;
