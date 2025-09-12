@@ -383,7 +383,6 @@ p {
   box-shadow: var(--shadow-md);
   height: 100%;
   transition: var(--transition);
-  text-align: center;
 }
 
 .benefit-card:hover {
@@ -400,7 +399,6 @@ p {
   background-color: var(--primary-light);
   color: var(--primary-color);
   border-radius: 50%;
-  margin: 0 auto 1.5rem;
   font-size: 1.75rem;
 }
 
